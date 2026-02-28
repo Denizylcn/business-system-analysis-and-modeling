@@ -1,53 +1,50 @@
 # business-system-analysis-and-modeling
 
 
+# Business System Analysis & Modeling Framework
+
 ## Overview
-This project presents a structured business system analysis including department-level process modeling and data architecture design.
+This repository presents a structured approach to business system analysis and modeling. 
 
-The objective was to analyze operational workflows and represent system structure through visual and data models.
+It includes multiple case-based implementations where operational workflows are translated into structured system representations using standard analysis techniques.
+
+The objective is to demonstrate the ability to bridge business requirements with system architecture through formal modeling practices.
 
 ---
 
-## Scope of Work
+## Modeling Components
 
-The project includes:
+The framework covers:
 
-- Department-based Data Flow Diagrams (DFD – multiple levels)
-- Use Case Diagrams
-- Entity Relationship (ER) Diagram
-- Data Dictionary
+- Data Flow Diagrams (DFD – multi-level)
+- Use Case Modeling
+- Entity Relationship (ER) Diagrams
 - Database Schema Design
+- Data Dictionary Documentation
+- Process Analysis (As-Is / To-Be thinking)
 
 ---
 
-## Analysis Approach
+## Repository Structure
 
-1. Identified department-level processes and interactions.
-2. Modeled inter-department data flows using DFD levels.
-3. Defined user-system interactions via structured Use Cases.
-4. Designed relational database architecture using ER modeling.
-5. Created a Data Dictionary defining:
-   - Data attributes
-   - Field types
-   - Relationships
-   - Constraints
+Each case study is organized under its own folder:
+
+- `/restaurant-case` – Operational workflow modeling scenario
+
+Additional domain scenarios may be added in future iterations.
 
 ---
 
-## Key Contributions
+## Methodology
 
-- Structured operational workflows into logical system models.
-- Designed consistent data structure and entity relationships.
-- Established clear mapping between processes and data components.
-- Improved clarity between business operations and system design.
+1. Identify stakeholders and department boundaries.
+2. Model process flows and data movement.
+3. Define user-system interactions.
+4. Design relational data structure.
+5. Establish structured documentation for system clarity.
 
 ---
 
-## Outcome
+## Purpose
 
-This project demonstrates the ability to:
-
-- Model complex business processes
-- Design relational database structures
-- Define structured system components
-- Perform end-to-end system analysis
+This repository reflects structured business analysis and system modeling capabilities applicable to enterprise-level environments such as financial systems, ERP platforms and digital transformation projects.
